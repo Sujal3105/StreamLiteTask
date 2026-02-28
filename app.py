@@ -8,7 +8,7 @@ import os
 st.title("Image Processing App")
 
 #it is folder path
-image_folder = "/Users/coding/ResoluteAI Tasks/Task 3/Images"
+image_folder = "Images"
 
 #storing images in directory into a list,consits only image names
 image_files = [f for f in os.listdir(image_folder) 
